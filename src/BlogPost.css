@@ -1,0 +1,17 @@
+.blogpost {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .blogpost h1 {
+    color: #333;
+  }
+  
+  .blogpost p {
+    color: #555;
+  }
+  

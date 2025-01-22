@@ -1,3 +1,5 @@
+import './BlogPost.css';
+
 function BlogPost(props) {
   return (
     <div>
