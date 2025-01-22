@@ -1,42 +1,54 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Center the entire BlogPost component on the page */
+.blogpost {
+  font-family: 'Arial', sans-serif;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 700px;
+  text-align: center; /* Centers text inside the component */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Title styling */
+.blogpost-header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Author and date styling */
+.blogpost-meta {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.blogpost-author {
+  font-weight: bold;
 }
 
-.card {
-  padding: 2em;
+/* Content styling */
+.blogpost-content {
+  font-size: 1rem;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+/* Footer styling with centered link */
+.blogpost-footer {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.blogpost-footer a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blogpost-footer a:hover {
+  text-decoration: underline;
 }
