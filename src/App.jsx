@@ -1,6 +1,5 @@
 import React from "react";
 import BlogPost from "./BlogPost";
-
 import Typography from "@mui/material/Typography"; // Import Typography from Material-UI
 
 function App() {
